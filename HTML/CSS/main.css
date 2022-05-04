@@ -21,7 +21,6 @@
     
 }
 
-
 #navtopo1 a{
     color:#d3d3d3;
     float: left;
@@ -40,6 +39,7 @@
     text-align: center;
     background-color: #d3d3d3;
     color: #ff6f9c;
+    
 }
 
 #divCentro {
@@ -52,11 +52,20 @@
     text-align: center;
 }
 
+#sectionEsquerda img:hover{
+    transform: scale(1.1);
+}
+
 
 #sectionMeio {
     width: 30%;
     float: left;
     text-align: center;
+
+}
+
+#sectionMeio img:hover{
+    transform: scale(1.1);
 
 }
 
@@ -88,6 +97,10 @@
 
 }
 
+#dibaixo img:hover{
+    transform: scale(1.1);
+}
+
 #dibaixo h1{
     background-color: rgb(5, 5, 5);
     color: #ff6f9c;
@@ -116,6 +129,25 @@ footer {
 }
 
 #mima{
+    border: 10px solid #fff;
+    text-shadow: #000000;
+    justify-content: space-evenly;
     text-align: center;
+    width:96,5%;
+    gap: 2vw;
+    padding: 0 1vw;
+    object-fit: cover;
+}
+
+#mima img:hover{
+    transform: scale(1.1);
+}
+
+#img-container{
+    box-shadow: 5px 5px 5px #000000;
+    border: 10px solid #ff6f9c;
+    justify-content: space-evenly;
+    object-fit: cover;
+
 }
 
